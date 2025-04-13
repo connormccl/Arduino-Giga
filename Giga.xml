@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component version="1.0" xmlns="http://schemas.circuit-diagram.org/circuitDiagramDocument/2012/component/xml">
+  <declaration>
+    <!-- Metadata for the Arduino Giga R1 -->
+    <meta name="name" value="Arduino Giga R1" />
+    <meta name="version" value="1.0.0" />
+    <meta name="minsize" value="210" />
+    <meta name="canflip" value="false" />
+    <meta name="author" value="connormccl" />
+    <meta name="guid" value="4bdfcefb-8718-4a86-a213-bb28464895fa" />
+  </declaration>
+
+  <!-- CONNECTIONS SECTION: Define how the external pins connect -->
+  <connections>
+    <group conditions="_Horizontal">
+      <!-- Left side connections (pins 0 to 39) -->
+      <connection name="0"  start="_Start-20x-195y" end="_Middle-55x-195y" edge="Start" />
+      <connection name="1"  start="_Start-20x-185y" end="_Middle-55x-185y" edge="Start" />
+      <connection name="2"  start="_Start-20x-175y" end="_Middle-55x-175y" edge="Start" />
+      <connection name="3"  start="_Start-20x-165y" end="_Middle-55x-165y" edge="Start" />
+      <connection name="4"  start="_Start-20x-155y" end="_Middle-55x-155y" edge="Start" />
+      <connection name="5"  start="_Start-20x-145y" end="_Middle-55x-145y" edge="Start" />
+      <connection name="6"  start="_Start-20x-135y" end="_Middle-55x-135y" edge="Start" />
+      <connection name="7"  start="_Start-20x-125y" end="_Middle-55x-125y" edge="Start" />
+      <connection name="8"  start="_Start-20x-115y" end="_Middle-55x-115y" edge="Start" />
+      <connection name="9"  start="_Start-20x-105y" end="_Middle-55x-105y" edge="Start" />
+      <connection name="10" start="_Start-20x-95y"  end="_Middle-55x-95y"  edge="Start" />
+      <connection name="11" start="_Start-20x-85y"  end="_Middle-55x-85y"  edge="Start" />
+      <connection name="12" start="_Start-20x-75y"  end="_Middle-55x-75y"  edge="Start" />
+      <connection name="13" start="_Start-20x-65y"  end="_Middle-55x-65y"  edge="Start" />
+      <connection name="14" start="_Start-20x-55y"  end="_Middle-55x-55y"  edge="Start" />
+      <connection name="15" start="_Start-20x-45y"  end="_Middle-55x-45y"  edge="Start" />
+      <connection name="16" start="_Start-20x-35y"  end="_Middle-55x-35y"  edge="Start" />
+      <connection name="17" start="_Start-20x-25y"  end="_Middle-55x-25y"  edge="Start" />
+      <connection name="18" start="_Start-20x-15y"  end="_Middle-55x-15y"  edge="Start" />
+      <connection name="19" start="_Start-20x-5y"   end="_Middle-55x-5y"   edge="Start" />
+      <connection name="20" start="_Start-20x+5y"   end="_Middle-55x+5y"   edge="Start" />
+      <connection name="21" start="_Start-20x+15y"  end="_Middle-55x+15y"  edge="Start" />
+      <connection name="22" start="_Start-20x+25y"  end="_Middle-55x+25y"  edge="Start" />
+      <connection name="23" start="_Start-20x+35y"  end="_Middle-55x+35y"  edge="Start" />
+      <connection name="24" start="_Start-20x+45y"  end="_Middle-55x+45y"  edge="Start" />
+      <connection name="25" start="_Start-20x+55y"  end="_Middle-55x+55y"  edge="Start" />
+      <connection name="26" start="_Start-20x+65y"  end="_Middle-55x+65y"  edge="Start" />
+      <connection name="27" start="_Start-20x+75y"  end="_Middle-55x+75y"  edge="Start" />
+      <connection name="28" start="_Start-20x+85y"  end="_Middle-55x+85y"  edge="Start" />
+      <connection name="29" start="_Start-20x+95y"  end="_Middle-55x+95y"  edge="Start" />
+      <connection name="30" start="_Start-20x+105y" end="_Middle-55x+105y" edge="Start" />
+      <connection name="31" start="_Start-20x+115y" end="_Middle-55x+115y" edge="Start" />
+      <connection name="32" start="_Start-20x+125y" end="_Middle-55x+125y" edge="Start" />
+      <connection name="33" start="_Start-20x+135y" end="_Middle-55x+135y" edge="Start" />
+      <connection name="34" start="_Start-20x+145y" end="_Middle-55x+145y" edge="Start" />
+      <connection name="35" start="_Start-20x+155y" end="_Middle-55x+155y" edge="Start" />
+      <connection name="36" start="_Start-20x+165y" end="_Middle-55x+165y" edge="Start" />
+      <connection name="37" start="_Start-20x+175y" end="_Middle-55x+175y" edge="Start" />
+      <connection name="38" start="_Start-20x+185y" end="_Middle-55x+185y" edge="Start" />
+      <connection name="39" start="_Start-20x+195y" end="_Middle-55x+195y" edge="Start" />
+
+      <!-- Right side connections (pins 40 to 79) -->
+      <connection name="40" start="_Middle+55x-195y" end="_End+20x-195y" edge="End" />
+      <connection name="41" start="_Middle+55x-185y" end="_End+20x-185y" edge="End" />
+      <connection name="42" start="_Middle+55x-175y" end="_End+20x-175y" edge="End" />
+      <connection name="43" start="_Middle+55x-165y" end="_End+20x-165y" edge="End" />
+      <connection name="44" start="_Middle+55x-155y" end="_End+20x-155y" edge="End" />
+      <connection name="45" start="_Middle+55x-145y" end="_End+20x-145y" edge="End" />
+      <connection name="46" start="_Middle+55x-135y" end="_End+20x-135y" edge="End" />
+      <connection name="47" start="_Middle+55x-125y" end="_End+20x-125y" edge="End" />
+      <connection name="48" start="_Middle+55x-115y" end="_End+20x-115y" edge="End" />
+      <connection name="49" start="_Middle+55x-105y" end="_End+20x-105y" edge="End" />
+      <connection name="50" start="_Middle+55x-95y"  end="_End+20x-95y"  edge="End" />
+      <connection name="51" start="_Middle+55x-85y"  end="_End+20x-85y"  edge="End" />
+      <connection name="52" start="_Middle+55x-75y"  end="_End+20x-75y"  edge="End" />
+      <connection name="53" start="_Middle+55x-65y"  end="_End+20x-65y"  edge="End" />
+      <connection name="54" start="_Middle+55x-55y"  end="_End+20x-55y"  edge="End" />
+      <connection name="55" start="_Middle+55x-45y"  end="_End+20x-45y"  edge="End" />
+      <connection name="56" start="_Middle+55x-35y"  end="_End+20x-35y"  edge="End" />
+      <connection name="57" start="_Middle+55x-25y"  end="_End+20x-25y"  edge="End" />
+      <connection name="58" start="_Middle+55x-15y"  end="_End+20x-15y"  edge="End" />
+      <connection name="59" start="_Middle+55x-5y"   end="_End+20x-5y"   edge="End" />
+      <connection name="60" start="_Middle+55x+5y"   end="_End+20x+5y"   edge="End" />
+      <connection name="61" start="_Middle+55x+15y"  end="_End+20x+15y"  edge="End" />
+      <connection name="62" start="_Middle+55x+25y"  end="_End+20x+25y"  edge="End" />
+      <connection name="63" start="_Middle+55x+35y"  end="_End+20x+35y"  edge="End" />
+      <connection name="64" start="_Middle+55x+45y"  end="_End+20x+45y"  edge="End" />
+      <connection name="65" start="_Middle+55x+55y"  end="_End+20x+55y"  edge="End" />
+      <connection name="66" start="_Middle+55x+65y"  end="_End+20x+65y"  edge="End" />
+      <connection name="67" start="_Middle+55x+75y"  end="_End+20x+75y"  edge="End" />
+      <connection name="68" start="_Middle+55x+85y"  end="_End+20x+85y"  edge="End" />
+      <connection name="69" start="_Middle+55x+95y"  end="_End+20x+95y"  edge="End" />
+      <connection name="70" start="_Middle+55x+105y" end="_End+20x+105y" edge="End" />
+      <connection name="71" start="_Middle+55x+115y" end="_End+20x+115y" edge="End" />
+      <connection name="72" start="_Middle+55x+125y" end="_End+20x+125y" edge="End" />
+      <connection name="73" start="_Middle+55x+135y" end="_End+20x+135y" edge="End" />
+      <connection name="74" start="_Middle+55x+145y" end="_End+20x+145y" edge="End" />
+      <connection name="75" start="_Middle+55x+155y" end="_End+20x+155y" edge="End" />
+      <connection name="76" start="_Middle+55x+165y" end="_End+20x+165y" edge="End" />
+      <connection name="77" start="_Middle+55x+175y" end="_End+20x+175y" edge="End" />
+      <connection name="78" start="_Middle+55x+185y" end="_End+20x+185y" edge="End" />
+      <connection name="79" start="_Middle+55x+195y" end="_End+20x+195y" edge="End" />
+    </group>
+  </connections>
+
+  <!-- RENDER SECTION: Define the shapes, lines, and text that appear in the symbol -->
+  <render>
+    <group conditions="_Horizontal">
+      <!-- Board outline (expanded vertically to accommodate 40 rows of pins) -->
+      <rect x="_Middle-60" y="_Middle-210" width="120" height="420" />
+
+      <!-- Left side pin lines -->
+      <line start="_Start-20x-195y" end="_Middle-55x-195y" />
+      <line start="_Start-20x-185y" end="_Middle-55x-185y" />
+      <line start="_Start-20x-175y" end="_Middle-55x-175y" />
+      <line start="_Start-20x-165y" end="_Middle-55x-165y" />
+      <line start="_Start-20x-155y" end="_Middle-55x-155y" />
+      <line start="_Start-20x-145y" end="_Middle-55x-145y" />
+      <line start="_Start-20x-135y" end="_Middle-55x-135y" />
+      <line start="_Start-20x-125y" end="_Middle-55x-125y" />
+      <line start="_Start-20x-115y" end="_Middle-55x-115y" />
+      <line start="_Start-20x-105y" end="_Middle-55x-105y" />
+      <line start="_Start-20x-95y"  end="_Middle-55x-95y"  />
+      <line start="_Start-20x-85y"  end="_Middle-55x-85y"  />
+      <line start="_Start-20x-75y"  end="_Middle-55x-75y"  />
+      <line start="_Start-20x-65y"  end="_Middle-55x-65y"  />
+      <line start="_Start-20x-55y"  end="_Middle-55x-55y"  />
+      <line start="_Start-20x-45y"  end="_Middle-55x-45y"  />
+      <line start="_Start-20x-35y"  end="_Middle-55x-35y"  />
+      <line start="_Start-20x-25y"  end="_Middle-55x-25y"  />
+      <line start="_Start-20x-15y"  end="_Middle-55x-15y"  />
+      <line start="_Start-20x-5y"   end="_Middle-55x-5y"   />
+      <line start="_Start-20x+5y"   end="_Middle-55x+5y"   />
+      <line start="_Start-20x+15y"  end="_Middle-55x+15y"  />
+      <line start="_Start-20x+25y"  end="_Middle-55x+25y"  />
+      <line start="_Start-20x+35y"  end="_Middle-55x+35y"  />
+      <line start="_Start-20x+45y"  end="_Middle-55x+45y"  />
+      <line start="_Start-20x+55y"  end="_Middle-55x+55y"  />
+      <line start="_Start-20x+65y"  end="_Middle-55x+65y"  />
+      <line start="_Start-20x+75y"  end="_Middle-55x+75y"  />
+      <line start="_Start-20x+85y"  end="_Middle-55x+85y"  />
+      <line start="_Start-20x+95y"  end="_Middle-55x+95y"  />
+      <line start="_Start-20x+105y" end="_Middle-55x+105y" />
+      <line start="_Start-20x+115y" end="_Middle-55x+115y" />
+      <line start="_Start-20x+125y" end="_Middle-55x+125y" />
+      <line start="_Start-20x+135y" end="_Middle-55x+135y" />
+      <line start="_Start-20x+145y" end="_Middle-55x+145y" />
+      <line start="_Start-20x+155y" end="_Middle-55x+155y" />
+      <line start="_Start-20x+165y" end="_Middle-55x+165y" />
+      <line start="_Start-20x+175y" end="_Middle-55x+175y" />
+      <line start="_Start-20x+185y" end="_Middle-55x+185y" />
+      <line start="_Start-20x+195y" end="_Middle-55x+195y" />
+
+      <!-- Right side pin lines -->
+      <line start="_Middle+55x-195y" end="_End+20x-195y"  />
+      <line start="_Middle+55x-185y" end="_End+20x-185y"  />
+      <line start="_Middle+55x-175y" end="_End+20x-175y"  />
+      <line start="_Middle+55x-165y" end="_End+20x-165y"  />
+      <line start="_Middle+55x-155y" end="_End+20x-155y"  />
+      <line start="_Middle+55x-145y" end="_End+20x-145y"  />
+      <line start="_Middle+55x-135y" end="_End+20x-135y"  />
+      <line start="_Middle+55x-125y" end="_End+20x-125y"  />
+      <line start="_Middle+55x-115y" end="_End+20x-115y"  />
+      <line start="_Middle+55x-105y" end="_End+20x-105y"  />
+      <line start="_Middle+55x-95y"  end="_End+20x-95y"   />
+      <line start="_Middle+55x-85y"  end="_End+20x-85y"   />
+      <line start="_Middle+55x-75y"  end="_End+20x-75y"   />
+      <line start="_Middle+55x-65y"  end="_End+20x-65y"   />
+      <line start="_Middle+55x-55y"  end="_End+20x-55y"   />
+      <line start="_Middle+55x-45y"  end="_End+20x-45y"   />
+      <line start="_Middle+55x-35y"  end="_End+20x-35y"   />
+      <line start="_Middle+55x-25y"  end="_End+20x-25y"   />
+      <line start="_Middle+55x-15y"  end="_End+20x-15y"   />
+      <line start="_Middle+55x-5y"   end="_End+20x-5y"    />
+      <line start="_Middle+55x+5y"   end="_End+20x+5y"    />
+      <line start="_Middle+55x+15y"  end="_End+20x+15y"   />
+      <line start="_Middle+55x+25y"  end="_End+20x+25y"   />
+      <line start="_Middle+55x+35y"  end="_End+20x+35y"   />
+      <line start="_Middle+55x+45y"  end="_End+20x+45y"   />
+      <line start="_Middle+55x+55y"  end="_End+20x+55y"   />
+      <line start="_Middle+55x+65y"  end="_End+20x+65y"   />
+      <line start="_Middle+55x+75y"  end="_End+20x+75y"   />
+      <line start="_Middle+55x+85y"  end="_End+20x+85y"   />
+      <line start="_Middle+55x+95y"  end="_End+20x+95y"   />
+      <line start="_Middle+55x+105y" end="_End+20x+105y"  />
+      <line start="_Middle+55x+115y" end="_End+20x+115y"  />
+      <line start="_Middle+55x+125y" end="_End+20x+125y"  />
+      <line start="_Middle+55x+135y" end="_End+20x+135y"  />
+      <line start="_Middle+55x+145y" end="_End+20x+145y"  />
+      <line start="_Middle+55x+155y" end="_End+20x+155y"  />
+      <line start="_Middle+55x+165y" end="_End+20x+165y"  />
+      <line start="_Middle+55x+175y" end="_End+20x+175y"  />
+      <line start="_Middle+55x+185y" end="_End+20x+185y"  />
+      <line start="_Middle+55x+195y" end="_End+20x+195y"  />
+
+      <!-- Board Title Text -->
+      <text value="Arduino"   x="_Middle" y="_Middle-230" align="CentreCentre" />
+      <text value="Giga R1"   x="_Middle" y="_Middle-215" align="CentreCentre" />
+
+      <!-- Left side pin labels -->
+      <text value="VIN"   x="_Middle-57" y="_Middle-195" align="CentreLeft"  />
+      <text value="GND"   x="_Middle-57" y="_Middle-185" align="CentreLeft"  />
+      <text value="3.3V"  x="_Middle-57" y="_Middle-175" align="CentreLeft"  />
+      <text value="5V"    x="_Middle-57" y="_Middle-165" align="CentreLeft"  />
+      <text value="RESET" x="_Middle-57" y="_Middle-155" align="CentreLeft"  />
+      <text value="D50"   x="_Middle-57" y="_Middle-145" align="CentreLeft"  />
+      <text value="D49"   x="_Middle-57" y="_Middle-135" align="CentreLeft"  />
+      <text value="D48"   x="_Middle-57" y="_Middle-125" align="CentreLeft"  />
+      <text value="D47"   x="_Middle-57" y="_Middle-115" align="CentreLeft"  />
+      <text value="D46"   x="_Middle-57" y="_Middle-105" align="CentreLeft"  />
+      <text value="D45"   x="_Middle-57" y="_Middle-95"  align="CentreLeft"  />
+      <text value="D44"   x="_Middle-57" y="_Middle-85"  align="CentreLeft"  />
+      <text value="D43"   x="_Middle-57" y="_Middle-75"  align="CentreLeft"  />
+      <text value="D42"   x="_Middle-57" y="_Middle-65"  align="CentreLeft"  />
+      <text value="A0"    x="_Middle-57" y="_Middle-55"  align="CentreLeft"  />
+      <text value="A1"    x="_Middle-57" y="_Middle-45"  align="CentreLeft"  />
+      <text value="A2"    x="_Middle-57" y="_Middle-35"  align="CentreLeft"  />
+      <text value="A3"    x="_Middle-57" y="_Middle-25"  align="CentreLeft"  />
+      <text value="A4"    x="_Middle-57" y="_Middle-15"  align="CentreLeft"  />
+      <text value="A5"    x="_Middle-57" y="_Middle-5"   align="CentreLeft"  />
+      <text value="A6"    x="_Middle-57" y="_Middle+5"   align="CentreLeft"  />
+      <text value="A7"    x="_Middle-57" y="_Middle+15"  align="CentreLeft"  />
+      <text value="A8"    x="_Middle-57" y="_Middle+25"  align="CentreLeft"  />
+      <text value="A9"    x="_Middle-57" y="_Middle+35"  align="CentreLeft"  />
+      <text value="A10"   x="_Middle-57" y="_Middle+45"  align="CentreLeft"  />
+      <text value="A11"   x="_Middle-57" y="_Middle+55"  align="CentreLeft"  />
+      <text value="A12"   x="_Middle-57" y="_Middle+65"  align="CentreLeft"  />
+      <text value="A13"   x="_Middle-57" y="_Middle+75"  align="CentreLeft"  />
+      <text value="A14"   x="_Middle-57" y="_Middle+85"  align="CentreLeft"  />
+      <text value="A15"   x="_Middle-57" y="_Middle+95"  align="CentreLeft"  />
+      <text value="SDA"   x="_Middle-57" y="_Middle+105" align="CentreLeft"  />
+      <text value="SCL"   x="_Middle-57" y="_Middle+115" align="CentreLeft"  />
+      <text value="TX"    x="_Middle-57" y="_Middle+125" align="CentreLeft"  />
+      <text value="RX"    x="_Middle-57" y="_Middle+135" align="CentreLeft"  />
+      <text value="MISO"  x="_Middle-57" y="_Middle+145" align="CentreLeft"  />
+      <text value="MOSI"  x="_Middle-57" y="_Middle+155" align="CentreLeft"  />
+      <text value="SCK"   x="_Middle-57" y="_Middle+165" align="CentreLeft"  />
+      <text value="IOREF" x="_Middle-57" y="_Middle+175" align="CentreLeft"  />
+      <text value="D51"   x="_Middle-57" y="_Middle+185" align="CentreLeft"  />
+      <text value="D52"   x="_Middle-57" y="_Middle+195" align="CentreLeft"  />
+
+      <!-- Right side pin labels -->
+      <text value="D0/RX0" x="_Middle+57" y="_Middle-195" align="CentreRight" />
+      <text value="D1/TX0" x="_Middle+57" y="_Middle-185" align="CentreRight" />
+      <text value="D2"     x="_Middle+57" y="_Middle-175" align="CentreRight" />
+      <text value="D3"     x="_Middle+57" y="_Middle-165" align="CentreRight" />
+      <text value="D4"     x="_Middle+57" y="_Middle-155" align="CentreRight" />
+      <text value="D5"     x="_Middle+57" y="_Middle-145" align="CentreRight" />
+      <text value="D6"     x="_Middle+57" y="_Middle-135" align="CentreRight" />
+      <text value="D7"     x="_Middle+57" y="_Middle-125" align="CentreRight" />
+      <text value="D8"     x="_Middle+57" y="_Middle-115" align="CentreRight" />
+      <text value="D9"     x="_Middle+57" y="_Middle-105" align="CentreRight" />
+      <text value="D10"    x="_Middle+57" y="_Middle-95"  align="CentreRight" />
+      <text value="D11"    x="_Middle+57" y="_Middle-85"  align="CentreRight" />
+      <text value="D12"    x="_Middle+57" y="_Middle-75"  align="CentreRight" />
+      <text value="D13"    x="_Middle+57" y="_Middle-65"  align="CentreRight" />
+      <text value="D14"    x="_Middle+57" y="_Middle-55"  align="CentreRight" />
+      <text value="D15"    x="_Middle+57" y="_Middle-45"  align="CentreRight" />
+      <text value="D16"    x="_Middle+57" y="_Middle-35"  align="CentreRight" />
+      <text value="D17"    x="_Middle+57" y="_Middle-25"  align="CentreRight" />
+      <text value="D18"    x="_Middle+57" y="_Middle-15"  align="CentreRight" />
+      <text value="D19"    x="_Middle+57" y="_Middle-5"   align="CentreRight" />
+      <text value="D20"    x="_Middle+57" y="_Middle+5"   align="CentreRight" />
+      <text value="D21"    x="_Middle+57" y="_Middle+15"  align="CentreRight" />
+      <text value="D22"    x="_Middle+57" y="_Middle+25"  align="CentreRight" />
+      <text value="D23"    x="_Middle+57" y="_Middle+35"  align="CentreRight" />
+      <text value="D24"    x="_Middle+57" y="_Middle+45"  align="CentreRight" />
+      <text value="D25"    x="_Middle+57" y="_Middle+55"  align="CentreRight" />
+      <text value="D26"    x="_Middle+57" y="_Middle+65"  align="CentreRight" />
+      <text value="D27"    x="_Middle+57" y="_Middle+75"  align="CentreRight" />
+      <text value="D28"    x="_Middle+57" y="_Middle+85"  align="CentreRight" />
+      <text value="D29"    x="_Middle+57" y="_Middle+95"  align="CentreRight" />
+      <text value="D30"    x="_Middle+57" y="_Middle+105" align="CentreRight" />
+      <text value="D31"    x="_Middle+57" y="_Middle+115" align="CentreRight" />
+      <text value="D32"    x="_Middle+57" y="_Middle+125" align="CentreRight" />
+      <text value="D33"    x="_Middle+57" y="_Middle+135" align="CentreRight" />
+      <text value="D34"    x="_Middle+57" y="_Middle+145" align="CentreRight" />
+      <text value="D35"    x="_Middle+57" y="_Middle+155" align="CentreRight" />
+      <text value="D36"    x="_Middle+57" y="_Middle+165" align="CentreRight" />
+      <text value="D37"    x="_Middle+57" y="_Middle+175" align="CentreRight" />
+      <text value="D38"    x="_Middle+57" y="_Middle+185" align="CentreRight" />
+      <text value="D39"    x="_Middle+57" y="_Middle+195" align="CentreRight" />
+    </group>
+  </render>
+</component>
